@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Launcher {
     //elegimos que práctica queremos ejecutar
-    public void launch() {
+    public void launch() throws Exception {
         //elegimos por teclado con scanner
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingresa el número de la práctica que quieres ejecutar: ");
@@ -22,7 +22,7 @@ public class Launcher {
                 break;
             case 3:
                 //ejecutamos la práctica 3
-
+                org.example.Practica3.Principal.main(null);
                 break;
         }
 
